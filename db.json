@@ -5,7 +5,8 @@
       "name": "The Village",
       "lat": 0,
       "long": 0,
-      "image_url": "",
+      "image_url": "https://whatpub.com/img/EDN/384/village-edinburgh/200/150",
+      "address": "16 S Fort St, Edinburgh EH6 4DN",
       "products": [
           {
             "id": 0,
@@ -30,7 +31,8 @@
       "name": "Brandons",
       "lat": 0,
       "long": 0,
-      "image_url": "",
+      "image_url": "https://whatpub.com/img/EDN/715/brandons-of-canonmills-edinburgh/200/150",
+      "address": "1 Canonmills, Edinburgh EH3 5HA",
       "products": [
           {
             "id": 0,
@@ -54,7 +56,8 @@
       "name": "Joseph Pearces",
       "lat": 0,
       "long": 0,
-      "image_url": "",
+      "image_url": "https://whatpub.com/img/EDN/992/joseph-pearce-edinburgh/200/150",
+      "address": "23 Elm Row, Edinburgh EH7 4AA",
       "products": [
           {
             "id": 0,

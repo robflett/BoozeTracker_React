@@ -6,7 +6,12 @@ class PubDetail extends React.Component {
       return null;
     }
     return (
-      <h3>{this.props.pub.name}</h3>
+      <div>
+        <p>
+          <img src={this.props.pub.image_url} />
+        </p>
+        <h2>{this.props.pub.address}</h2>
+      </div>
     );
   }
 }
