@@ -1,0 +1,78 @@
+{
+  "bars": [
+    {
+      "id": 0,
+      "name": "The Village",
+      "lat": 0,
+      "long": 0,
+      "image_url": "",
+      "products": [
+          {
+            "id": 0,
+            "name": "Guiness",
+            "price": 3
+          },
+          {
+            "product_id": 1,
+            "name": "Dark Island",
+            "price": 3
+          },
+          {
+            "product_id": 2,
+            "name": "Laphroig",
+            "price": 4
+          }
+        ]
+    },
+
+    {
+      "id": 1,
+      "name": "Brandons",
+      "lat": 0,
+      "long": 0,
+      "image_url": "",
+      "products": [
+          {
+            "id": 0,
+            "name": "Guiness",
+            "price": 3
+          },
+          {
+            "product_id": 1,
+            "name": "Dark Island",
+            "price": 3
+          },
+          {
+            "product_id": 2,
+            "name": "Laphroig",
+            "price": 4
+          }
+        ]
+    },
+    {
+      "id": 2,
+      "name": "Joseph Pearces",
+      "lat": 0,
+      "long": 0,
+      "image_url": "",
+      "products": [
+          {
+            "id": 0,
+            "name": "Guiness",
+            "price": 3
+          },
+          {
+            "product_id": 1,
+            "name": "Dark Island",
+            "price": 3
+          },
+          {
+            "product_id": 2,
+            "name": "Laphroig",
+            "price": 4
+          }
+        ]
+    }
+
+  ]
+}

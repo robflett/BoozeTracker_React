@@ -13,6 +13,22 @@ class RoundContainer extends React.Component {
     };
   }
 
+  componentDidMount(){
+      var url = 'http://localhost:3000/bars';
+      var request = new XMLHttpRequest();
+      request.open('GET', url);
+      
+      request.onload = function() {
+        if (request.status === 200) {
+          var jsonString = request.responseText;
+          var data = JSON.parse(jsonString);
+          this.setState({ pubs: data, thisPub:data[0] });
+        }
+      }.bind(this);
+      
+      request.send();
+    }
+
     setThisPub(pub){
       this.setState({ thisPub: pub });
     }
