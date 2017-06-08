@@ -36,17 +36,17 @@
       "products": [
           {
             "id": 0,
-            "name": "Guiness",
+            "name": "80 Shilling",
             "price": 3
           },
           {
             "product_id": 1,
-            "name": "Dark Island",
+            "name": "Tennents",
             "price": 3
           },
           {
             "product_id": 2,
-            "name": "Laphroig",
+            "name": "Gordons Gin",
             "price": 4
           }
         ]
@@ -61,17 +61,17 @@
       "products": [
           {
             "id": 0,
-            "name": "Guiness",
+            "name": "Grolsch",
             "price": 3
           },
           {
             "product_id": 1,
-            "name": "Dark Island",
+            "name": "Becks",
             "price": 3
           },
           {
             "product_id": 2,
-            "name": "Laphroig",
+            "name": "Talisker",
             "price": 4
           }
         ]

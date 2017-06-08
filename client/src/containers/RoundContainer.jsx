@@ -1,6 +1,9 @@
 import React from 'react';
 import PubSelector from '../components/PubSelector';
 import PubDetail from '../components/PubDetail';
+import DrinksDetail from '../components/DrinksDetail';
+import Tabs from '../components/Tabs';
+import Pane from '../components/Pane';
 
 
 
@@ -12,6 +15,7 @@ class RoundContainer extends React.Component {
       thisPub: null
     };
   }
+
 
   componentDidMount(){
       var url = 'http://localhost:3000/bars';
@@ -38,7 +42,16 @@ class RoundContainer extends React.Component {
         <div>
           <h2>Booze Tracker</h2>
           <PubSelector pubs={this.state.pubs} selectPub={this.setThisPub.bind(this)} />
-          <PubDetail pub={this.state.thisPub} />
+         
+            <Tabs selected={0}>
+             <Pane label="Pub Info">
+               <PubDetail pub={this.state.thisPub} />
+             </Pane>
+             <Pane label="Drinks!">             
+               <DrinksDetail pub={this.state.thisPub} />              
+             </Pane>
+           </Tabs>
+        
         </div>
       );
     }
