@@ -6,7 +6,7 @@ var DrinksDetail = React.createClass({
   getItems: function() {
     return [{id: 1, name: "Guiness", price: 3},
             {id: 2, name: "BrewDog IPA", price: 3},
-            {id: 3, name: "Laphroig", price: 2}];
+            {id: 3, name: "Laphroig", price: 4}];
   },
 
   getInitialState: function() {
