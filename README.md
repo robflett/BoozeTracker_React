@@ -3,8 +3,8 @@
 BoozeTracker!
 
 # Rob Flett 
-rob.flett@btinternet.com
-0788 779 8964
+- rob.flett@btinternet.com
+- 0788 779 8964
 
 # Brief 
 A web app you can use on your phone in a pub. You should be able choose the pub you're in (search, or select from a list). When you have selected the pub, you should be able to see what drinks are available at the bar, and their prices. You should be able to compose a list of drinks orders from the available selections, and take this list to the bar with you so you can present it to the bartender.
